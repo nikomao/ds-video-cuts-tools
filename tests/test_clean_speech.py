@@ -1,5 +1,5 @@
 import unittest
-from video_agent.analysis import clean_speech, DEFAULT_FILLERS
+from video_agent.analysis import clean_speech
 
 
 class CleanSpeechTests(unittest.TestCase):

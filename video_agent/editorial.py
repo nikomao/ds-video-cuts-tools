@@ -1,6 +1,5 @@
 """Evidence-based mechanical editorial review; not a model or aesthetic score."""
 from __future__ import annotations
-import math
 
 
 def review_plan(plan, cues=None, analysis=None):

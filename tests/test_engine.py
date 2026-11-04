@@ -2,7 +2,6 @@ import json
 import shutil
 import tempfile
 import unittest
-import wave
 from pathlib import Path
 from unittest.mock import patch
 from video_agent.store import Project, write_json
