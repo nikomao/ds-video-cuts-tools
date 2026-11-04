@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "harness-video-agent"
+version = "0.4.0"
+description = "Local media tools and an internal DeepSeek Harness video agent"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+asr = ["faster-whisper>=1.1,<2"]
+translation = ["argostranslate>=1.9,<2"]
+tts = ["piper-tts>=1.2,<2"]
+
+[project.scripts]
+video-agent = "video_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["video_agent*"]

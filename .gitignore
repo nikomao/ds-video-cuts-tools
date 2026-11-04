@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.video-agent/
+outputs/
+.env
+.pytest_cache/
+.DS_Store
+.dsh-prompt-studio/
+
